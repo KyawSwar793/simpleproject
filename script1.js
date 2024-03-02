@@ -99,7 +99,7 @@ function calculate(item){
 
         operatorArr = operatorArr.filter(operator => operator !== '(');
         
-        sout1.innerText+=`\nNumbers: [${numArr.join(', ')}]`+`\nOperators: [${operatorArr.join(', ')}]`+" "+closeParen;
+        // sout1.innerText+=`\nNumbers: [${numArr.join(', ')}]`+`\nOperators: [${operatorArr.join(', ')}]`+" "+closeParen;
 
         for(let i=0;i<operatorArr.length;i++){
             if(operatorArr[i]=='x' || operatorArr[i]=='%' || operatorArr[i]=='/') {
